@@ -1,3 +1,4 @@
+# Given two strings ss and tt, tt is a substring of ss if tt is contained as a contiguous collection of symbols in ss (as a result, tt must be no longer than ss).
 substring_index <- function(string,pattern){
   l = nchar(pattern)
   string2 = unlist(strsplit(string,""))
