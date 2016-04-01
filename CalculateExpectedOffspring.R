@@ -17,7 +17,7 @@ dominant_F1_probability <- function(parent_genotype)
   
   # 4 possible offspings
   F1 <-  c( paste0(p1_genotypes[1],p2_genotypes[1],collapse=" "), paste0(p1_genotypes[1],p2_genotypes[2],collapse=" "), paste0(p1_genotypes[2],p2_genotypes[1],collapse=" "), paste0(p1_genotypes[2],p2_genotypes[2],collapse=" ") )
-  
+  # percentage of offsprings with dominant genotype
   dominant_count <- 0
   for(i in seq_along(F1))
   {
