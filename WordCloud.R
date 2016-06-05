@@ -6,7 +6,6 @@ library("wordcloud") # word-cloud generator
 library("RColorBrewer") # color palettes
 
 # Read the text file
-#filePath <- "http://www.sthda.com/sthda/RDoc/example-files/martin-luther-king-i-have-a-dream-speech.txt"
 filePath <- "/Users/shruti/Downloads/words.txt"
 text <- readLines(filePath)
 
