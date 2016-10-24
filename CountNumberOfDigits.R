@@ -16,7 +16,11 @@ CountDigits <- function(x){
 }
 
 ### less eficient way 
+<<<<<<< HEAD
 CountDigits2 <- function(x){
+=======
+CountDigits <- function(x){
+>>>>>>> 88c166b2de4ae97c8de50f96df5ba75122e10895
   if(is.numeric(x)==F)
   {
     print("please enter a valid number")  
@@ -35,6 +39,7 @@ CountDigits2 <- function(x){
     }  
     return(NumDigits)
   }
+<<<<<<< HEAD
 }
 
 CountDigits(1234)
@@ -42,3 +47,6 @@ CountDigits2(1234)
 
 system.time(replicate(10000,CountDigits(1234)))
 system.time(replicate(10000,CountDigits2(1234)))
+=======
+}
+>>>>>>> 88c166b2de4ae97c8de50f96df5ba75122e10895
